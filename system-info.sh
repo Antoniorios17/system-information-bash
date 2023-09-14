@@ -1,5 +1,15 @@
 #!/bin/bash
 
+######################################################################################
+#
+# Script Name   	: 	system-info.sh
+# Description   	:	This Bash script is designed to display various system information options to the user through a 
+#                       menu interface. Users can choose an option, and the script will provide the corresponding system information.
+# Author		    :  	Antonio Rios                     
+# 
+######################################################################################
+
+
 printf "System Information Menu \n\n"
 echo "1. Currently logged user"
 echo "2. Your shell directory"
