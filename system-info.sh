@@ -19,6 +19,7 @@ read input;
 
 case $input in
     1) echo "Currently logged user is" $(whoami);;
-    2) echo ""
+    2) echo "Your current shell is $SHELL";;
+    3) echo "Your home directory is $HOME"
 
 esac
