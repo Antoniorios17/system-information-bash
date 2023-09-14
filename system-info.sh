@@ -23,5 +23,6 @@ case $input in
     3) echo "Your home directory is $HOME";;
     4) lsb_release -a;;
     5) pwd;;
+    6) w
 
 esac
