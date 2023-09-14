@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "System Information Menu"
+printf "System Information Menu \n\n"
 echo "1. Currently logged user"
 echo "2. Your shell directory"
 echo "3. Home directory"
@@ -14,7 +14,8 @@ echo "10. Memory information"
 echo "11. File System Information"
 echo "12. Currently running process"
 echo "13. Exit"
-
+echo ""
+echo "Please choose your option: "
 read input;
 
 case $input in
@@ -23,6 +24,13 @@ case $input in
     3) echo "Your home directory is $HOME";;
     4) lsb_release -a;;
     5) pwd;;
-    6) w
+    6) w;;
+    7) cat /etc/shells;;
+    8) lsblk;;
+    9) lscpu;;
+    10) free;;
+    11) df;;
+    12) ps -aux;;
+    0) exit
 
 esac
